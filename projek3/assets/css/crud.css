@@ -1,0 +1,181 @@
+
+
+.crud-page {
+    background: #ffffff;
+    padding: 28px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(77, 54, 38, 0.07);
+}
+
+
+/* HEADER HALAMAN */
+
+.crud-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.crud-header h2 {
+    margin: 0;
+    color: #5d402e;
+    font-size: 23px;
+}
+
+
+/* TOMBOL TAMBAH */
+
+.btn-tambah {
+    display: inline-block;
+    padding: 10px 17px;
+    background: #765238;
+    color: white;
+    border-radius: 9px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.btn-tambah:hover {
+    background: #5f402d;
+    transform: translateY(-1px);
+}
+
+
+/* TABLE */
+
+.crud-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.crud-table thead {
+    background: #765238;
+}
+
+.crud-table th {
+    padding: 14px 15px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.crud-table td {
+    padding: 13px 15px;
+    border-bottom: 1px solid #eee;
+    color: #555;
+    font-size: 14px;
+}
+
+.crud-table tbody tr:hover {
+    background: #faf7f4;
+}
+
+
+/* AKSI */
+
+.btn-edit,
+.btn-hapus {
+    display: inline-block;
+    padding: 6px 11px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.btn-edit {
+    background: #f1e4d8;
+    color: #765238;
+}
+
+.btn-edit:hover {
+    background: #e5d2c1;
+}
+
+.btn-hapus {
+    background: #f3dddd;
+    color: #a33a3a;
+}
+
+.btn-hapus:hover {
+    background: #eacaca;
+}
+
+
+/* STATUS USER */
+
+.status-aktif {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #e4f1e5;
+    color: #3f7745;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.status-nonaktif {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #f4dddd;
+    color: #9a4141;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+/* ROLE USER */
+
+.role-admin,
+.role-kasir,
+.role-owner {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.role-admin {
+    background: #eadfd5;
+    color: #765238;
+}
+
+.role-kasir {
+    background: #e3edf5;
+    color: #416b8d;
+}
+
+.role-owner {
+    background: #eee3f2;
+    color: #735080;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 700px) {
+
+    .crud-page {
+        padding: 18px;
+    }
+
+    .crud-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .crud-table {
+        min-width: 700px;
+    }
+
+}
+

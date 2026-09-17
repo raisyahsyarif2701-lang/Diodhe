@@ -1,0 +1,247 @@
+/* ============================
+   DIODHE CAKE & BAKERY
+============================ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#F7F3EF;
+    display:flex;
+}
+
+/* Sidebar */
+
+.sidebar{
+    width:250px;
+    height:100vh;
+    position:fixed;
+    left:0;
+    top:0;
+    background:#6F4E37;
+    padding:25px;
+    box-shadow:5px 0 20px rgba(0,0,0,.08);
+}
+
+.sidebar h2{
+    color:white;
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.sidebar a{
+    display:block;
+    padding:14px 18px;
+    margin:10px 0;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    transition:.3s;
+    font-size:15px;
+}
+
+.sidebar a:hover,
+.sidebar .active{
+    background:#A67B5B;
+    transform:translateX(6px);
+}
+
+/* Content */
+
+.content{
+    margin-left:250px;
+    width:100%;
+    padding:35px;
+}
+
+/* Topbar */
+
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.topbar h1{
+    color:#5C4033;
+}
+
+/* Card */
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:18px;
+    padding:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#6F4E37;
+    margin-bottom:10px;
+}
+
+.card h1{
+    font-size:40px;
+    color:#333;
+}
+
+/* Table */
+
+.table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.table th{
+    background:#6F4E37;
+    color:white;
+    padding:15px;
+}
+
+.table td{
+    padding:15px;
+    border-bottom:1px solid #eee;
+}
+
+.table tr:hover{
+    background:#FAFAFA;
+}
+
+/* Foto */
+
+.foto{
+    width:70px;
+    height:70px;
+    object-fit:cover;
+    border-radius:12px;
+}
+
+/* Button */
+
+.btn{
+    display:inline-block;
+    padding:10px 18px;
+    border-radius:8px;
+    text-decoration:none;
+    color:white;
+    transition:.3s;
+    border:none;
+    cursor:pointer;
+}
+
+.btn-primary{
+    background:#3B82F6;
+}
+
+.btn-warning{
+    background:#F59E0B;
+}
+
+.btn-danger{
+    background:#EF4444;
+}
+
+.btn:hover{
+    opacity:.9;
+}
+
+/* Form */
+
+form{
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+form label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+form input,
+form select,
+form textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    outline:none;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus{
+    border-color:#6F4E37;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.sidebar{
+    width:220px;
+}
+
+.content{
+    margin-left:220px;
+    padding:20px;
+}
+
+.cards{
+    grid-template-columns:1fr;
+}
+
+}
+.logout-btn{
+    display:block;
+    margin-top:20px;
+    padding:12px;
+    text-align:center;
+    background:#dc3545;
+    color:#fff;
+    text-decoration:none;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.logout-btn:hover{
+    background:#bb2d3b;
+}
+form{
+    max-width:700px;
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+form textarea{
+    resize:vertical;
+}
+
+form .btn{
+    margin-right:10px;
+}

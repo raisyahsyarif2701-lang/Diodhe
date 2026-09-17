@@ -1,0 +1,116 @@
+/* =========================================
+   BUTTON GOFOOD
+========================================= */
+
+.crud-table td a.btn-gofood {
+    display: inline-block !important;
+
+    padding: 9px 14px !important;
+
+    border-radius: 10px !important;
+    border: none !important;
+
+    background: #8b4b25 !important;
+    color: #ffffff !important;
+
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+
+    line-height: normal !important;
+
+    text-decoration: none !important;
+
+    white-space: nowrap;
+
+    cursor: pointer;
+
+    box-shadow: 0 4px 10px rgba(139, 75, 37, 0.20);
+
+    transition: 0.25s ease;
+}
+
+.crud-table td a.btn-gofood:hover {
+    background: #6d381c !important;
+
+    color: #ffffff !important;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================
+   BUTTON GRABFOOD
+========================================= */
+
+.crud-table td a.btn-grabfood {
+    display: inline-block !important;
+
+    padding: 9px 14px !important;
+
+    border-radius: 10px !important;
+    border: none !important;
+
+    background: #8b4b25 !important;
+    color: #ffffff !important;
+
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+
+    line-height: normal !important;
+
+    text-decoration: none !important;
+
+    white-space: nowrap;
+
+    cursor: pointer;
+
+    box-shadow: 0 4px 10px rgba(139, 75, 37, 0.20);
+
+    transition: 0.25s ease;
+}
+
+.crud-table td a.btn-grabfood:hover {
+    background: #6d381c !important;
+
+    color: #ffffff !important;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================
+   LINK KOSONG
+========================================= */
+
+.crud-table td .link-kosong {
+    color: #999 !important;
+
+    font-size: 12px;
+}
+
+.crud-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.crud-table th,
+.crud-table td {
+    overflow-wrap: anywhere;
+}
+
+.crud-table th:nth-child(5),
+.crud-table td:nth-child(5),
+.crud-table th:nth-child(6),
+.crud-table td:nth-child(6) {
+    width: 130px;
+    text-align: center;
+}
+
+.crud-table a {
+    background: red !important;
+    color: white !important;
+    padding: 15px !important;
+    border-radius: 10px !important;
+}
