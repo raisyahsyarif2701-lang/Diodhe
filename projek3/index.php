@@ -136,7 +136,7 @@ $role = $_SESSION['role'];
             </p>
 
             <p>
-                Anda login sebagai
+                Anda login sebagai apa
                 <strong><?= htmlspecialchars(ucfirst($role)); ?></strong>.
             </p>
 
